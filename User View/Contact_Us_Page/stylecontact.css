@@ -1,0 +1,38 @@
+
+
+/*Navigation bar*/
+.nav-item active
+{
+    color: black;
+}
+.main-logo
+{
+    width: 100px;
+    height: 100px;
+}
+
+.icon-size{
+    font-size:30px;
+}
+.person-div a{
+    text-decoration: none;
+
+}
+.icon-hover{
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.icon-hover:hover{
+    color:rgb(165, 165, 165);
+}
+@media (max-width:500px) {
+    .main-logo{
+        width: 80px;
+        height: 80px;
+        margin-left: -10px;
+    }
+    .icon-size{
+      font-size:40px;
+  }
+  }
